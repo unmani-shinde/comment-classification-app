@@ -8,7 +8,6 @@ import os
 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-port = int(os.getenv("PORT", 4000))
 
 # Define model architecture
 class MultiClassClassifier(nn.Module):

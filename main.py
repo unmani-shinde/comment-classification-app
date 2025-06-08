@@ -27,7 +27,7 @@ tokenizer = BertTokenizer.from_pretrained("bert-base-multilingual-cased")
 # Download model weights from Hugging Face Hub
 model_path = hf_hub_download(
     repo_id="heyunmani/comment-classifier-app",  # 👈 replace with actual values
-    filename="model_state.pth"
+    filename="model_state_fp16.pth"
 )
 
 # Load model and weights

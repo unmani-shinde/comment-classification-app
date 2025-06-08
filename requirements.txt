@@ -3,4 +3,5 @@ uvicorn
 torch
 transformers
 pydantic
-huggingface_hub
+python-dotenv
+
